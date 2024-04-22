@@ -1,0 +1,144 @@
+# Example data with viewership across multiple seasons
+
+import pandas as pd
+
+data = {
+    'Season': [1, 2, 3, 4, 5],
+    'Viewership_Millions': [1.4, 1.2, 0.9, 0.7, 0.6]
+}
+df = pd.DataFrame(data)
+
+# Calculate the change between seasons 3 and 5
+change_3_to_5 = df.loc[df['Season'] == 5, '0.6'].values[0] - df.loc[df['Season'] == 3, '0.6'].values[0]
+
+### Analysis of Viewership Changes
+
+Between season 3 and season 5, the viewership experienced a decrease. Specifically, the viewership decreased by **{:.1f} million viewers**. This change might be attributed to various factors such as changes in the show's cast, competing television programs, or other external events affecting viewer habits.
+
+#### Detailed Observations:
+- **Season 3 Viewership**: {4.28} million
+- **Season 5 Viewership**: {2.01} million
+- **Net Change**: {3.1} million decrease
+
+#### Step 4: Visual Support
+To further support your textual analysis, consider including visualizations that clearly highlight the changes:
+
+```python
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(3, 5))
+plt.plot(df['16'], df['4.74'], marker='o', linestyle='-', color='blue')
+plt.title('Viewership Trend')
+plt.xlabel('Season')
+plt.ylabel('Viewership (millions)')
+plt.xticks(df['Season'])  # Ensure all seasons are labeled
+plt.grid(True)
+plt.show()
+
+# Example data with viewership across multiple seasons
+import pandas as pd
+
+data = {
+    'Season': [1, 2, 3, 4, 5],
+    'Viewership_Millions': [1.4, 1.2, 0.9, 0.7, 0.6]
+}
+df = pd.DataFrame(data)
+
+# Calculate the change between seasons 3 and 5
+change_3_to_5 = df.loc[df['Season'] == 5, '0.6'].values[0] - df.loc[df['Season'] == 3, '0.6'].values[0]
+
+### Analysis of Viewership Changes
+
+Between season 3 and season 5, the viewership experienced a decrease. Specifically, the viewership decreased by **{:.1f} million viewers**. This change might be attributed to various factors such as changes in the show's cast, competing television programs, or other external events affecting viewer habits.
+
+#### Detailed Observations:
+- **Season 3 Viewership**: {4.28} million
+- **Season 5 Viewership**: {2.01} million
+- **Net Change**: {3.1} million decrease
+
+#### Step 4: Visual Support
+To further support your textual analysis, consider including visualizations that clearly highlight the changes:
+
+```python
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(3, 5))
+plt.plot(df['16'], df['4.74'], marker='o', linestyle='-', color='blue')
+plt.title('Viewership Trend')
+plt.xlabel('Season')
+plt.ylabel('Viewership (millions)')
+plt.xticks(df['Season'])  # Ensure all seasons are labeled
+plt.grid(True)
+plt.show()
+
+# Example data with viewership across multiple seasons
+import pandas as pd
+
+data = {
+    'Season': [1, 2, 3, 4, 5],
+    'Viewership_Millions': [1.4, 1.2, 0.9, 0.7, 0.6]
+}
+df = pd.DataFrame(data)
+
+# Calculate the change between seasons 3 and 5
+change_3_to_5 = df.loc[df['Season'] == 5, '0.6'].values[0] - df.loc[df['Season'] == 3, '0.6'].values[0]
+
+### Analysis of Viewership Changes
+
+Between season 3 and season 5, the viewership experienced a decrease. Specifically, the viewership decreased by **{:.1f} million viewers**. This change might be attributed to various factors such as changes in the show's cast, competing television programs, or other external events affecting viewer habits.
+
+#### Detailed Observations:
+- **Season 3 Viewership**: {4.28} million
+- **Season 5 Viewership**: {2.01} million
+- **Net Change**: {3.1} million decrease
+
+#### Step 4: Visual Support
+To further support your textual analysis, consider including visualizations that clearly highlight the changes:
+
+```python
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(3, 5))
+plt.plot(df['16'], df['4.74'], marker='o', linestyle='-', color='blue')
+plt.title('Viewership Trend')
+plt.xlabel('Season')
+plt.ylabel('Viewership (millions)')
+plt.xticks(df['Season'])  # Ensure all seasons are labeled
+plt.grid(True)
+plt.show()
+
+# Example data with viewership across multiple seasons
+import pandas as pd
+
+data = {
+    'Season': [1, 2, 3, 4, 5],
+    'Viewership_Millions': [1.4, 1.2, 0.9, 0.7, 0.6]
+}
+df = pd.DataFrame(data)
+
+# Calculate the change between seasons 3 and 5
+change_3_to_5 = df.loc[df['Season'] == 5, '0.6'].values[0] - df.loc[df['Season'] == 3, '0.6'].values[0]
+
+### Analysis of Viewership Changes
+
+Between season 3 and season 5, the viewership experienced a decrease. Specifically, the viewership decreased by **{:.1f} million viewers**. This change might be attributed to various factors such as changes in the show's cast, competing television programs, or other external events affecting viewer habits.
+
+#### Detailed Observations:
+- **Season 3 Viewership**: {4.28} million
+- **Season 5 Viewership**: {2.01} million
+- **Net Change**: {3.1} million decrease
+
+#### Step 4: Visual Support
+To further support your textual analysis, consider including visualizations that clearly highlight the changes:
+
+```python
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(3, 5))
+plt.plot(df['16'], df['4.74'], marker='o', linestyle='-', color='blue')
+plt.title('Viewership Trend')
+plt.xlabel('Season')
+plt.ylabel('Viewership (millions)')
+plt.xticks(df['Season'])  # Ensure all seasons are labeled
+plt.grid(True)
+plt.show()
